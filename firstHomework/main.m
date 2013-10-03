@@ -6,15 +6,15 @@
 //  Copyright (c) 2013年 Charlotte. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import "countDays.h"
 
 int main(int argc, const char * argv[])
 {
 
     @autoreleasepool {
         
-        // insert code here...
-        NSLog(@"Hello, World!");
+        countDays *calender=[[countDays alloc]init];
+        [calender showCal];
         
     }
     return 0;

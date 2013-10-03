@@ -10,6 +10,7 @@
 		51E289DE17FD3C7C00D4AEBA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51E289DD17FD3C7C00D4AEBA /* Foundation.framework */; };
 		51E289E117FD3C7C00D4AEBA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 51E289E017FD3C7C00D4AEBA /* main.m */; };
 		51E289E517FD3C7C00D4AEBA /* firstHomework.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 51E289E417FD3C7C00D4AEBA /* firstHomework.1 */; };
+		51E289ED17FD3F4600D4AEBA /* countDays.m in Sources */ = {isa = PBXBuildFile; fileRef = 51E289EC17FD3F4600D4AEBA /* countDays.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		51E289E017FD3C7C00D4AEBA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		51E289E317FD3C7C00D4AEBA /* firstHomework-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "firstHomework-Prefix.pch"; sourceTree = "<group>"; };
 		51E289E417FD3C7C00D4AEBA /* firstHomework.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = firstHomework.1; sourceTree = "<group>"; };
+		51E289EB17FD3F4600D4AEBA /* countDays.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = countDays.h; sourceTree = "<group>"; };
+		51E289EC17FD3F4600D4AEBA /* countDays.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = countDays.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +77,8 @@
 			isa = PBXGroup;
 			children = (
 				51E289E017FD3C7C00D4AEBA /* main.m */,
+				51E289EB17FD3F4600D4AEBA /* countDays.h */,
+				51E289EC17FD3F4600D4AEBA /* countDays.m */,
 				51E289E417FD3C7C00D4AEBA /* firstHomework.1 */,
 				51E289E217FD3C7C00D4AEBA /* Supporting Files */,
 			);
@@ -140,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				51E289E117FD3C7C00D4AEBA /* main.m in Sources */,
+				51E289ED17FD3F4600D4AEBA /* countDays.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
